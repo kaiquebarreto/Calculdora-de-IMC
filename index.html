@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Sistema de cálculo de IMC, criado por Kaique Barreto">
+    <script src="https://kit.fontawesome.com/1ab94d0eba.js" crossorigin="anonymous"></script>
+    <title>Calculo IMC | Kaique Barreto</title>
+    <link rel="stylesheet" href="./assets/css/style.css">
+</head>
+
+<body>
+    <main class="container">
+        <h1>Calcule seu IMC</h1>
+        <p class="texto">Sistema criado para calculo do IMC, via Javascript!</p>
+        <form class="formulario" action="">
+            <div class="input-field">
+                <p class="texto">Peso:</p>
+                <input type="text" name="peso" id="peso" placeholder="Digite seu peso">
+                <div class="underline"></div>
+            </div>
+            <div class="input-field">
+                <p class="texto">Altura:</p>
+                <input type="text" name="altura" id="altura" placeholder="Digite sua altura">
+                <div class="underline"></div>
+            </div>
+
+            <div class="botao">
+                <input type="submit" value="Calcular">
+            </div>
+        </form>
+
+        <div class="resultado"></div>
+
+        <div class="footer">
+            <span>Criado por Kaique Barreto</span>
+            <div class="social-fields">
+                <a href="https://www.instagram.com/kaique_barreto/" class="social-field instagram">
+                    <i class="fab fa-instagram"></i>
+                </a>
+                <a href="https://www.facebook.com/kaiqueARQ/" class="social-field facebook">
+                    <i class="fab fa-facebook-f"></i>
+                </a>
+            </div>
+        </div>
+    </main>
+
+    <script src="./assets/js/main.js"></script>
+</body>
+
+</html>
